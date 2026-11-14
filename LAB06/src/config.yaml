@@ -1,0 +1,16 @@
+seed: 42
+
+dataset:
+  name: FashionMNIST
+  data_dir: "./data"
+
+training:
+  epochs: 5
+  batch_size: 128
+  learning_rate: 0.001
+
+checkpoint:
+  save_path: "../checkpoints/model.pth"
+
+mlflow:
+  experiment_name: "Lab6_FashionMNIST"
